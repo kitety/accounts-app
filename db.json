@@ -1,0 +1,52 @@
+{
+  "records": [
+    {
+      "id": "1",
+      "date": "2018-09-01",
+      "title": "title 1",
+      "amount": 30
+    },
+    {
+      "id": "2",
+      "date": "2018-09-01",
+      "title": "title 2",
+      "amount": 15
+    },
+    {
+      "id": "3",
+      "date": "2018-09-01",
+      "title": "title 3",
+      "amount": 70
+    },
+    {
+      "id": "4",
+      "date": "2018-09-01",
+      "title": "title 4",
+      "amount": 75
+    },
+    {
+      "id": "5",
+      "date": "2018-09-01",
+      "title": "title 5",
+      "amount": 50
+    },
+    {
+      "id": "6",
+      "date": "2018-09-01",
+      "title": "title 6",
+      "amount": 59
+    },
+    {
+      "id": "45",
+      "date": "2018-09-01",
+      "title": "121212",
+      "amount": "1212121212"
+    },
+    {
+      "id": "13",
+      "date": "2018-9-9",
+      "title": "test",
+      "amount": "44"
+    }
+  ]
+}
