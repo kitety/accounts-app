@@ -34,7 +34,7 @@ export default class Record extends Component {
       }
     )
   }
-  handleDelte(event) {
+  handleDelete(event) {
     event.preventDefault()
     RecordsApi.remove(this.props.record.id).then(
       (res) => {
@@ -54,7 +54,7 @@ export default class Record extends Component {
         <td>{this.props.record.amount}</td>
         <td>
           <button type="button" className="btn btn-default mr-1" onClick={this.handleToggle.bind(this)}>Edit</button>
-          <button type="button" className="btn btn-danger" onClick={this.handleDelte.bind(this)}>Delete</button>
+          <button type="button" className="btn btn-danger" onClick={this.handleDelete.bind(this)}>Delete</button>
         </td>
       </tr>
     )

@@ -82,7 +82,7 @@ class Records extends Component {
     let credit = this.state.records.filter(record => {
       return record.amount>=0
     })
-    https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce
+    // https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce
     return credit.reduce((pre,cur)=>{
       return pre + (cur.amount-0)
     },0)
